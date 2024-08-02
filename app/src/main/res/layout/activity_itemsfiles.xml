@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:columnCount="2"
+
+    android:padding="3dp"
+    android:background="@drawable/card"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="GotoKarbala"
+        android:src="@drawable/njaf"
+        tools:ignore="OnClick"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:paddingStart="5dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="Al-Najaf"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Najaf or Al-Najaf Al-Ashraf is one of the most prominent cities in Iraq. It is one of the important cities in Iraq. Therefore, there is Muqadd Ali bin Talib, the first imam among the Shiites, and the raiser of the Rightly-Guided Caliphs. Among the Sunnis, it was allocated to the scholarly ministers in Iraq."
+            android:textColor="@color/teal_200"
+            android:textSize="11dp" />
+    </LinearLayout>
+</GridLayout>

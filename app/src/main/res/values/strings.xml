@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Tranquil Trail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- res/values/arrays.xml -->
+
+    <string-array name="location_names">
+        <item>Al-Najaf Al-Ashraf</item>
+        <item>Erbil </item>
+        <item>Ur</item>
+        <item>Karbala</item>
+        <item>Dur-Kurigalzu</item>
+        <item>Babylon</item>
+        <item>Lalish</item>
+        <item>Alqosh</item>
+        <item>Dayro d-Mor Mattai</item>
+        <item>Halkurd Mountain</item>
+        <item>Lake Dukan</item>
+        <item>Ctesiphon</item>
+        <item>Wadi Al Salam</item>
+        <item>Mosque of Kufa</item>
+        <item>Mosque Al-Sahla</item>
+    </string-array>
+
+
+    <integer-array name="imgs">
+
+        <item>@drawable/njaf</item>
+        <item>@drawable/erbil</item>
+        <item>@drawable/ur</item>
+        <item>@drawable/karbala</item>
+        <item>@drawable/durkurigalzu</item>
+        <item>@drawable/babylon</item>
+        <item>@drawable/lalish</item>
+        <item>@drawable/alqosh</item>
+        <item>@drawable/mormattaimonastery</item>
+        <item>@drawable/halgurd</item>
+        <item>@drawable/lakedukan</item>
+        <item>@drawable/ctesiphon</item>
+        <item>@drawable/wadiussalam</item>
+        <item>@drawable/masjidalkufa</item>
+        <item>@drawable/alsahlamosque</item>
+
+    </integer-array>
+
+    <string-array name="location_descriptions">
+
+        <item>Najaf or Al-Najaf Al-Ashraf is one of the most prominent cities in Iraq. It is one of the important cities in Iraq. Therefore, there is Muqadd Ali bin Talib, the first imam among the Shiites, and the raiser of the Rightly-Guided Caliphs. Among the Sunnis, it was allocated to the scholarly ministers in Iraq.</item>
+        <item>The city of Erbil tells the history of ancient Iraq and contains an ancient castle that is approximately 7,000 years old. It is a castle with an amazing history in the middle of the city.</item>
+        <item>This city or archaeological site is famous for its wonderful stories about the kings of Babylon and various floods. It is also famous for a large number of ancient monuments and monuments. The city of Ur is located in the desert region of southern Iraq.</item>
+        <item>Every year more than 30 million people go to the city of Karbala for the purpose of Hajj. There is also a sacred area for Shiite Muslims, and this area is famous for the presence of the tomb of Imam Hussein (peace be upon him) and his brother Abbas bin Ali (peace be upon him).</item>
+        <item> Dur-Kurigalzu ( in Baghdad Governorate, Iraq) was a city in southern Mesopotamia, near the confluence of the Tigris and Diyala rivers, about 30 kilometres (19 mi) west of the center of Baghdad.</item>
+        <item>In the Iraqi city of Babylon, you will be able to conjure the era of ancient historical empires, visit the Hanging Gardens, and the places where epic battles took place between the Persian kings and Alexander the Great.</item>
+        <item>The city of Lalish is considered one of the most important tourist destinations located in northern Iraq. It is one of the holiest places for the Yazidis, and the city is about 4,000 years old.</item>
+        <item> is a town in the Nineveh Plains of northern Iraq, a sub-district of the Tel Kaif District situated 45 km north of the city of Mosul.The locals of Alqosh are Assyrians who mostly adhere to the Chaldean Catholic Church. During the Iron Age, the Alqosh plain appears to have been home to the small regional kingdom of Qumāne, but was subsequently annexed by Assyria.</item>
+        <item> is a Syriac Orthodox Church monastery on Mount Alfaf in northern Iraq, 20 kilometers northeast of the city of Mosul. It is recognized as one of the oldest Christian monasteries in existence. The monastery was famous for the number of monks and scholars it housed, and for its large library and considerable collection of Syriac Christian manuscripts.Today, it is an archbishopric; the current archbishop is Mor Timothius Mousa Alshamany.</item>
+        <item>  is the second highest mountain in Iraq, after Cheekha Dar, and the tallest fully within Iraq. Located in Choman district in Northern Erbil Province, Kurdistan Region, Iraq. Halgurd has an elevation of 3,607 metres.</item>
+        <item>  is a lake in Kurdistan Region Iraq. It is located close to the city of Ranya, and is a reservoir on the Little Zab created by the construction of the Dukan Dam. The Dukan Dam was built between 1954 and 1959 as a multi-purpose dam to provide water storage, irrigation and hydroelectricity.</item>
+        <item>  was an ancient Iranian city, located on the eastern bank of the Tigris, and about 35 kilometres (22 mi) southeast of present-day Baghdad. Ctesiphon served as a royal capital of the Iranian empire in the Parthian and Sasanian eras for over eight hundred years. Ctesiphon was capital of the Sasanian Empire from 226–637 until the Muslim conquest of Persia in 651 AD.</item>
+        <item>Wadi Al Salam Cemetery has been in use for more than 1,400 years and is a UNESCO World Heritage Site. Statistics indicate that during the Iraq War, an estimated two to three hundred people were buried there daily, and that in 2010 the number of dead was buried There. They bury 100 people every day, that is, 500,000 funerals annually. In 2014, there were reports of cemeteries crossing the borders of Najaf Governorate and stealing some lands.</item>
+        <item>The Great Mosque of Kufa, or the Greatest Mosque in Iraq, is   one of the archaeological and historical mosques of Iraq and one of the oldest mosques in the Islamic world. It was built by the companion Saad bin Abi Waqqas in the year 19 AH/639 AD to be the first building in the city of Kufa, which later turned into the largest city and headquarters Islamic Caliphate of Imam Ali bin Abi Talib.</item>
+        <item>  is one of the primary significant mosques in the city of Kufa, Iraq. The mosque is of great importance to Shia Muslims, and it is believed that the mosque was initially established in Kufa as a neighborhood mosque for the followers of Ali, the early members of the Shia. The mosque is also said to be the future home of the Twelfth Shia Imam, Hujjat-Allah al-Mahdi</item>
+
+    </string-array>
+
+
+</resources>

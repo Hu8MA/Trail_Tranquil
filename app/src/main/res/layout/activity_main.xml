@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/vl_log"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tranquil Trail"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_200"
+            />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+
+          />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Hello World!"
+            android:src="@drawable/gps"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/vl_log"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="4dp"
+        android:text="Welcome to our application, we will be your tour guide in Iraq"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/lunch"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_card_first"
+        android:onClick="gotocont"
+        android:text="Go to Map ✈"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+
+
+
+</RelativeLayout>
